@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0"
+    />
+    <link rel="apple-touch-icon" href="" sizes="" />
+    <link rel="icon" type="image/svg+xml" href="" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" type="image/svg+xml" content="" />
+    <meta property="og:image:alt" content="" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:type" content="product" />
+    <meta property="og:url" content="#" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./blog.css" />
+    <title>Блог</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container container">
+          <div class="wrap">
+            <img class="logo" src="./images/logo.svg" alt="Заitsev Web" />
+            <img
+              class="logo logo_green_mini"
+              src="./images/logo_green_mini.svg"
+              alt="Заitsev Web"
+            />
+            <nav class="nav nav-head">
+              <ul class="menu">
+                <li class="menu__item">
+                  <a class="menu__link" href="">Обо мне</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="">Услуги</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="">Проекты</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="">Компетенции</a>
+                </li>
+              </ul>
+              <div class="mob-nav">
+                <div class="mob-nav__line"></div>
+                <div class="mob-nav__line"></div>
+                <div class="mob-nav__line"></div>
+              </div>
+            </nav>
+            <nav class="nav nav_right">
+              <ul class="menu">
+                <li class="menu__item">
+                  <a class="menu__link" href="">Блог</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link menu__link_black contactWithMe" href=""
+                    >Связаться</a
+                  >
+                </li>
+                <li class="menu__item menu__item__select">
+                  <div class="custom-select">
+                    <div class="select-selected">RU</div>
+                    <div class="select-items">
+                      <div>RU</div>
+                      <div>ENG</div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mob-navigation">
+            <ul class="menu">
+              <li class="menu__item">
+                <a class="menu__link" href="">Обо мне</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Услуги</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Проекты</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Компетенции</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="">Блог</a>
+              </li>
+            </ul>
+            <div class="mob-navigation-wrap">
+              <ul class="mob-navigation-nav">
+                <li class="mob-navigation-nav__item">
+                  <a
+                    class="mob-navigation-nav__link mob-navigation-nav__link_black contactWithMe"
+                    href=""
+                    >Связаться</a
+                  >
+                </li>
+              </ul>
+              <ul class="mob-navigation-nav mob-navigation-nav_icons">
+                <li
+                  class="mob-navigation-nav__item mob-navigation-nav__item_icon"
+                >
+                  <a class="mob-navigation-nav__link" href="">
+                    <img
+                      class="mob-navigation-nav__icon"
+                      src="./images/gh.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li
+                  class="mob-navigation-nav__item mob-navigation-nav__item_icon"
+                >
+                  <a class="mob-navigation-nav__link" href="">
+                    <img
+                      class="mob-navigation-nav__icon"
+                      src="./images/tg.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li
+                  class="mob-navigation-nav__item mob-navigation-nav__item_icon"
+                >
+                  <a class="mob-navigation-nav__link" href="">
+                    <img
+                      class="mob-navigation-nav__icon"
+                      src="./images/mail.svg"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <article class="usefull" id="blog">
+          <div class="usefull__container container">
+            <h2 class="usefull__title">Блог</h2>
+            <div class="usefull-list">
+              <a class="usefull-list__item" href="">
+                <div class="usefull-list-wrap">
+                  <img
+                    class="usefull__img"
+                    src="./images/usefull1.png"
+                    alt=""
+                  />
+                  <p class="usefull__p">DEV</p>
+                </div>
+                <h3 class="usefull-list__title">
+                  Изучаем основы Python и CSS. Для чайников.
+                </h3>
+                <p class="usefull__description">
+                  Работал и разрабатывал одновременно (опасно для жизни, не
+                  повторять!). Научился деплоить сервера, переносить сайты и
+                  прочим нюансам.
+                </p>
+              </a>
+
+              <a class="usefull-list__item" href="">
+                <div class="usefull-list-wrap">
+                  <img
+                    class="usefull__img"
+                    src="./images/usefull2.png"
+                    alt=""
+                  />
+                  <p class="usefull__p">Education</p>
+                </div>
+                <h3 class="usefull-list__title">
+                  Изучаем основы Python и CSS. Для чайников.
+                </h3>
+                <p class="usefull__description">
+                  Работал и разрабатывал одновременно (опасно для жизни, не
+                  повторять!). Научился деплоить сервера, переносить сайты и
+                  прочим нюансам.
+                </p>
+              </a>
+
+              <a class="usefull-list__item" href="">
+                <div class="usefull-list-wrap">
+                  <img
+                    class="usefull__img"
+                    src="./images/usefull3.png"
+                    alt=""
+                  />
+                  <p class="usefull__p">About me</p>
+                </div>
+                <h3 class="usefull-list__title">
+                  Изучаем основы Python и CSS. Для чайников.
+                </h3>
+                <p class="usefull__description">
+                  Работал и разрабатывал одновременно (опасно для жизни, не
+                  повторять!). Научился деплоить сервера, переносить сайты и
+                  прочим нюансам.
+                </p>
+              </a>
+            </div>
+          </div>
+        </article>
+      </main>
+      <footer class="footer">
+        <picture class="footer-pattern">
+          <source
+            srcset="./images/pattern-footer-1440.png"
+            media="(min-width: 500px) and (max-width: 1600px)"
+          />
+          <source
+            srcset="./images/pattern-footer-1280.png"
+            media="(min-width: 500px) and (max-width: 1290px)"
+          />
+          <source
+            srcset="./images/pattern-footer-1080.png"
+            media="(min-width: 500px) and (max-width: 1080px)"
+          />
+          <source
+            srcset="./images/pattern-footer-390.png"
+            media="(max-width: 500px)"
+          />
+          <img
+            class="footer-pattern-img"
+            src="./images/pattern-footer-1920.png"
+            alt=""
+          />
+        </picture>
+        <div class="footer__container container">
+          <div class="footer-first">
+            <div class="footer-first__about-me">
+              <h3 class="footer-first__title">Никита Зайцев</h3>
+              <p class="footer-first__description">Веб-разработчик</p>
+            </div>
+            <ul class="footer-first-links">
+              <li class="footer-first-links__item">
+                <a class="footer-first-links__link" href="">
+                  <img
+                    class="footer-first-links__img"
+                    src="./images/gh.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+
+              <li class="footer-first-links__item">
+                <a class="footer-first-links__link" href="">
+                  <img
+                    class="footer-first-links__img"
+                    src="./images/tg.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+
+              <li class="footer-first-links__item">
+                <a class="footer-first-links__link" href="">
+                  <img
+                    class="footer-first-links__img"
+                    src="./images/mail.svg"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-second">
+            <h2 class="footer-second__title">
+              Нет лучшего времени, чем сейчас nikita@zaitsv.dev
+            </h2>
+          </div>
+
+          <div class="footer-third">
+            <img class="footer-third__logo" src="./images/logo.svg" alt="" />
+            <nav class="footer-third__nav">
+              <ul class="menu">
+                <li class="menu__item">
+                  <a class="menu__link" href="#aboutme">Обо мне</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#uslygi">Услуги</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#projects">Проекты</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#comp">Компетенции</a>
+                </li>
+                <li class="menu__item">
+                  <a class="menu__link" href="#blog">Блог</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <ul class="footer-first-links footer-first-links_mob">
+            <li class="footer-first-links__item">
+              <a class="footer-first-links__link" href="">
+                <img
+                  class="footer-first-links__img"
+                  src="./images/gh.svg"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="footer-first-links__item">
+              <a class="footer-first-links__link link_mob_2" href="">
+                <img
+                  class="footer-first-links__img"
+                  src="./images/tg.svg"
+                  alt=""
+                />
+              </a>
+            </li>
+
+            <li class="footer-first-links__item">
+              <a class="footer-first-links__link link_mob_3" href="">
+                <img
+                  class="footer-first-links__img"
+                  src="./images/mail.svg"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <div class="modal">
+        <div class="modal__container container">
+          <div class="modal-content">
+            <form class="form">
+              <img class="form-close" src="./images/x.svg" />
+
+              <h2 class="form__title">
+                С какой услугой<br />
+                я могу вам помочь?
+              </h2>
+              <div class="form-tags">
+                <div class="form-tags__tag">Верстка лендинга</div>
+                <div class="form-tags__tag">Корпоративный сайт</div>
+                <div class="form-tags__tag">Тех.поддержка</div>
+                <div class="form-tags__tag">Разработка бота</div>
+                <div class="form-tags__tag">Сайт-визитка</div>
+              </div>
+
+              <div class="form-fields">
+                <input
+                  class="form-field__input"
+                  type="text"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  class="form-field__input"
+                  type="email"
+                  placeholder="E-mail"
+                />
+                <textarea
+                  class="form-field__textarea"
+                  placeholder="Опишите вашу задачу"
+                ></textarea>
+              </div>
+
+              <div class="contact">
+                <p class="contant__description">
+                  Вы можете связаться со мной другим удобным способом:
+                </p>
+                <div class="contact-variants">
+                  <a
+                    class="contact-variants__link contact-variants__link_pc"
+                    href=""
+                    >Написать письмо</a
+                  >
+                  <a
+                    class="contact-variants__link contact-variants__link_mob"
+                    href=""
+                    >Письмо</a
+                  >
+                  <span class="contact-variants__span">Или</span>
+                  <a class="contact-variants__link" href="">Telegram</a>
+                </div>
+              </div>
+
+              <button class="form__button">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // скрипт модал формы
+
+      const contactWithMe = document.querySelectorAll(".contactWithMe");
+      const modal = document.querySelector(".modal");
+
+      contactWithMe.forEach((btn) => {
+        btn.addEventListener("click", (event) => {
+          event.preventDefault();
+
+          modal.classList.add("active");
+        });
+      });
+
+      const closebtn = document.querySelector(".form-close");
+
+      closebtn.addEventListener("click", () => {
+        modal.classList.remove("active");
+      });
+    </script>
+    <script>
+      // скрипт меню языков
+
+      const selected = document.querySelector(".select-selected");
+      const itemsContainer = document.querySelector(".select-items");
+
+      selected.addEventListener("click", () => {
+        itemsContainer.style.display =
+          itemsContainer.style.display === "block" ? "none" : "block";
+      });
+
+      document.querySelectorAll(".select-items div").forEach((item) => {
+        item.addEventListener("click", function () {
+          selected.textContent = this.textContent;
+          itemsContainer.style.display = "none";
+        });
+      });
+
+      window.addEventListener("click", (e) => {
+        if (
+          !selected.contains(e.target) &&
+          !itemsContainer.contains(e.target)
+        ) {
+          itemsContainer.style.display = "none";
+        }
+      });
+    </script>
+    <script>
+      // скрипт бурегр меню
+
+      const burger = document.querySelector(".mob-nav");
+      const mobNavigation = document.querySelector(".mob-navigation");
+      const header = document.querySelector("header");
+      const blog = document.querySelector(".usefull");
+
+      burger.addEventListener("click", () => {
+        burger.classList.toggle("active");
+        mobNavigation.classList.toggle("active");
+        header.classList.toggle("active");
+        blog.classList.toggle("hr");
+      });
+    </script>
+  </body>
+</html>
